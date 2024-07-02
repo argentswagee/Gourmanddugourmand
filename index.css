@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(image/fond.png);
+    background-size: cover;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.logo {
+    height: auto;
+    width: 30%;
+    position: relative;
+    animation-name: logo;
+    animation-duration: 1s;
+}
+
+@keyframes logo {
+    from {
+        transform: rotate(360deg);
+        width: 1%;
+    }
+    to {
+        height: auto;
+        width: 30%;
+        position: relative;
+        animation-name: logo;
+        animation-duration: 1s;
+        transform: rotate(0deg);
+    }
+}
+
+.txt {
+    font-size: 215%;
+    font-family: "Luckiest Guy";
+    position: relative;
+    text-align: center;
+    width: 400px;
+    color: #c01e5c;
+    animation-name: txt;
+    animation-duration: 2s;
+}
+
+.gen {
+    position: relative;
+    top: 35px;
+    padding: 5%;
+    width: 150px;
+    border-radius: 20px;
+    font-family: "Luckiest Guy";
+    background-color: #FFE6E8;
+    font-size: 150%;
+    border-width: 0px;
+    text-align: center;
+    box-shadow: 1px 1px 20px #E78F8E;
+    animation-name: gen;
+    animation-duration: 2s;
+}
+
+
+.mdj {
+    background-color: #ffffff7c;
+    border-width: 2px;
+    border-color: #000000;
+    position: relative;
+    margin-top: 120px;
+    height: 400px;
+    width: 85%;
+    border-radius: 40px;
+    padding: 20px;
+    overflow: auto;
+    font-family: "Luckiest Guy";
+    overflow-x: hidden;
+    animation-name: mdj;
+    animation-duration: 2s;
+}
+
+.local {
+    position: relative;
+    height: auto;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #CEFDFF;
+    top: 13px;
+    animation-name: local;
+    animation-duration: 2s;
+}
+
+.mt {
+    font-size: 108%;
+    left: 130px;
+    position: relative;
+    z-index: 5;
+    top: -60px;
+    animation-name: mt;
+    animation-duration: 2s;
+}
+
+.jeux {
+    position: relative;
+    height: auto;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 30px #CEFDFF;
+    top: 13px;
+    animation-name: jeux;
+    animation-duration: 2s;
+}
+
+@keyframes txt {
+    from {
+        font-size: 1%;
+    }
+    to {
+        font-size: 215%;
+    }
+}
+
+
+@keyframes gen {
+    0% {
+        box-shadow: 0px 0px 0px #E78F8E;
+        width: 15px;
+        border-radius: 0%;
+    }
+    25%{
+        width: 150px;
+    }
+    50% {
+        border-radius: 20px;
+
+    }
+    100% {
+ position: relative;
+    top: 35px;
+    padding: 5%;
+    width: 150px;
+    border-radius: 20px;
+    font-family: "Luckiest Guy";
+    background-color: #FFE6E8;
+    font-size: 150%;
+    border-width: 0px;
+    text-align: center;
+    box-shadow: 1px 1px 20px #E78F8E;
+    }
+}
