@@ -8,4 +8,4 @@
         audio.play();
       });
 
-alert(bonjour)
+alert(bonjour);
