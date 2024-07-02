@@ -1,12 +1,14 @@
+
 * {
     margin: 0%;
     padding: 0%;
-    overflow: hidden;
 }
 
 body {
     background-image: url(image/fond.png);
     background-size: cover;
+    overflow-x: hidden;
+
 }
 
 body, html {
@@ -23,7 +25,9 @@ body, html {
     position: relative;
     animation-name: logo;
     animation-duration: 1s;
-        overflow: hidden;
+    overflow: hidden;
+    margin-top: 20%;
+    margin-bottom: 10%;
 }
 
 @keyframes logo {
@@ -51,6 +55,7 @@ body, html {
     animation-name: txt;
     animation-duration: 2s;
     overflow: hidden;
+    margin-top: 25%;
 }
 
 .gen {
