@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+body {
+    height: 2000px;
+    background-color: #fff2cc;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.logo {
+    height: auto;
+    width: 50%;
+    position: relative;
+    top: 75px;
+    margin-bottom: 50%;
+}
+
+.box {
+    position: relative;
+    background-color: #FFD3BA;
+    margin-top: 5%;
+    width: 335px;
+    padding: 20px;
+    height: 300px;
+    border-radius: 20px;
+    font-family: 'Caveat', sans-serif;
+    font-size: 25px;
+    overflow: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.audio {
+    position: relative;
+    text-align: center;
+    color: #FFD3BA;
+}
