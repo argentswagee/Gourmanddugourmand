@@ -1,8 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: hidden;
 }
 
 body {
@@ -24,6 +23,7 @@ body, html {
     position: relative;
     animation-name: logo;
     animation-duration: 1s;
+        overflow: hidden;
 }
 
 @keyframes logo {
@@ -50,6 +50,7 @@ body, html {
     color: #c01e5c;
     animation-name: txt;
     animation-duration: 2s;
+    overflow: hidden;
 }
 
 .gen {
@@ -66,6 +67,7 @@ body, html {
     box-shadow: 1px 1px 20px #E78F8E;
     animation-name: gen;
     animation-duration: 2s;
+        overflow: hidden;
 }
 
 
@@ -95,6 +97,7 @@ body, html {
     top: 13px;
     animation-name: local;
     animation-duration: 2s;
+        overflow: hidden;
 }
 
 .mt {
@@ -105,6 +108,7 @@ body, html {
     top: -60px;
     animation-name: mt;
     animation-duration: 2s;
+        overflow: hidden;
 }
 
 .jeux {
@@ -116,6 +120,7 @@ body, html {
     top: 13px;
     animation-name: jeux;
     animation-duration: 2s;
+        overflow: hidden;
 }
 
 @keyframes txt {
