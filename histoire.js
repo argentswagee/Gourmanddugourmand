@@ -7,3 +7,5 @@
         var audio = document.getElementById("music");
         audio.play();
       });
+
+alert(bonjour)
