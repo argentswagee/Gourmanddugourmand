@@ -135,4 +135,3 @@ window.onload("click", function () {
   audio.play();
 });
 
-alert(Bonjour au gourmand, ce site a était publier afin de passez de bon moment en famille et de jouer, cependant, certaines fonctionnalités ne seront pas disponible du fait que le site est encore en travail, certains bug seront donc présents dans tout les cas, si vous en trouvez, veuillez nous contacter sur gourmanddugourmand@gmail.com afin que ceux si sois régler au plus vite, le site est imcompler, et donc les musiques de fond ne sont pas toutes présentes actuellement, les développeurs gourmandsont très concerner par le problémes, veuillez nous excusez de la dène attendue, sur ce, amusez vous bien sur le site.)
