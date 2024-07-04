@@ -47,6 +47,13 @@ document.getElementById("gen").addEventListener("click", function () {
     "ton coucou",
     "ton hirondelle",
     "ton laks studio"
+    "le bon miel"
+    "ta mère"
+    "la cuvette"
+    "ton picon biere"
+    "ta p'tite gazouz"
+    "ta bouche"
+    "marius"
   ];
   const randomWord2 = getRandomWord2(wordList2);
   console.log("Mot choisi au hasard :", randomWord2);
