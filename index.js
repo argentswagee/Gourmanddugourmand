@@ -66,6 +66,7 @@ document.getElementById("gen").addEventListener("click", function () {
     "Graille ",
     "témoigne ",
     "édifie ",
+    "marmonne ",
   ];
   const randomWord = getRandomWord(wordList);
   console.log("Mot choisi au hasard :", randomWord);
