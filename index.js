@@ -46,7 +46,8 @@ document.getElementById("gen").addEventListener("click", function () {
     "ton bonjour",
     "ton coucou",
     "ton hirondelle",
-    "ton laks studio"
+    "ton laks studio",
+    "ton tronbonne"
   ];
   const randomWord2 = getRandomWord2(wordList2);
   console.log("Mot choisi au hasard :", randomWord2);
