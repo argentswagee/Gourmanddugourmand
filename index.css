@@ -1,167 +1,80 @@
-
 * {
     margin: 0%;
     padding: 0%;
 }
 
 body {
-    background-image: url(image/fond.png);
-    background-size: cover;
-    overflow-x: hidden;
-
+    background-color: #E3C0D3;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: grid;
-    place-items: center;
+.widget1 {
+    background-color: #7B506F;
+    position: absolute;
+    height: 17%;
+    width: 80%;
+    border-radius: 40px;
+    left: 10%;
+    top: 5%;
+    box-shadow: inset 1px 1px 15px #503448;
 }
 
-.logo {
+.titre {
+    font-family: 'Chewy';
+    color: white;
+    font-size: 250%;
+    left: 20%;
+    position: absolute;
+}
+
+.soustitre {
+    font-family: 'Chewy';
+    color: white;
+    font-size: 120%;
+    left: 15.5%;
+    top: 30%;
+    position: absolute;
+}
+
+.imgfaster {
+    position: absolute;
     height: auto;
-    width: 30%;
-    position: relative;
-    animation-name: logo;
-    animation-duration: 1s;
-    overflow: hidden;
-    margin-top: 20%;
-    margin-bottom: 10%;
+    width: 35%;
+    top: 25%;
+    left: 10%;
 }
 
-@keyframes logo {
-    from {
-        transform: rotate(360deg);
-        width: 1%;
-    }
-    to {
-        height: auto;
-        width: 30%;
-        position: relative;
-        animation-name: logo;
-        animation-duration: 1s;
-        transform: rotate(0deg);
-    }
+.imgcrazier {
+    position: absolute;
+    height: auto;
+    width: 35%;
+    top: 25%;
+    right: 10%;
+}
+
+.imgbetter {
+    position: absolute;
+    height: auto;
+    width: 80%;
+    top: 45%;
+    right: 10%;
 }
 
 .txt {
-    font-size: 215%;
-    font-family: "Luckiest Guy";
-    position: relative;
-    text-align: center;
-    width: 400px;
-    color: #c01e5c;
-    animation-name: txt;
-    animation-duration: 2s;
-    overflow: hidden;
-    margin-top: 25%;
-}
-
-.gen {
-    position: relative;
-    top: 35px;
-    padding: 5%;
-    width: 150px;
-    border-radius: 20px;
-    font-family: "Luckiest Guy";
-    background-color: #FFE6E8;
-    font-size: 150%;
-    border-width: 0px;
-    text-align: center;
-    box-shadow: 1px 1px 20px #E78F8E;
-    animation-name: gen;
-    animation-duration: 2s;
-        overflow: hidden;
-}
-
-
-.mdj {
-    background-color: #ffffff7c;
-    border-width: 2px;
-    border-color: #000000;
-    position: relative;
-    margin-top: 120px;
-    height: 400px;
-    width: 85%;
+    background-color: #7B506F;
+    height: 30%;
+    width: 80%;
+    top: 65%;
+    left: 10%;
     border-radius: 40px;
-    padding: 20px;
-    overflow: auto;
-    font-family: "Luckiest Guy";
-    overflow-x: hidden;
-    animation-name: mdj;
-    animation-duration: 2s;
+    position: absolute;
+    box-shadow: inset 1px 1px 35px #503448;
 }
 
-.local {
-    position: relative;
-    height: auto;
-    width: 100px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 20px #CEFDFF;
-    top: 13px;
-    animation-name: local;
-    animation-duration: 2s;
-        overflow: hidden;
-}
-
-.mt {
-    font-size: 108%;
-    left: 130px;
-    position: relative;
-    z-index: 5;
-    top: -60px;
-    animation-name: mt;
-    animation-duration: 2s;
-        overflow: hidden;
-}
-
-.jeux {
-    position: relative;
-    height: auto;
-    width: 100px;
-    border-radius: 10px;
-    box-shadow: 15px 15px 30px #CEFDFF;
-    top: 13px;
-    animation-name: jeux;
-    animation-duration: 2s;
-        overflow: hidden;
-}
-
-@keyframes txt {
-    from {
-        font-size: 1%;
-    }
-    to {
-        font-size: 215%;
-    }
-}
-
-
-@keyframes gen {
-    0% {
-        box-shadow: 0px 0px 0px #E78F8E;
-        width: 15px;
-        border-radius: 0%;
-    }
-    25%{
-        width: 150px;
-    }
-    50% {
-        border-radius: 20px;
-
-    }
-    100% {
- position: relative;
-    top: 35px;
-    padding: 5%;
-    width: 150px;
-    border-radius: 20px;
-    font-family: "Luckiest Guy";
-    background-color: #FFE6E8;
-    font-size: 150%;
-    border-width: 0px;
-    text-align: center;
-    box-shadow: 1px 1px 20px #E78F8E;
-    }
+.dev {
+    color: white;
+    font-family: 'Chewy';
+    font-size: 115%;
+    position: absolute;
+    left: 5%;
+    top: 7%;
 }
